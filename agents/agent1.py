@@ -1,5 +1,5 @@
 from config import TOGETHER_MODELS
-from prompts import defender_prompt
+from v1.prompts import defender_prompt
 from together import Together
 
 def run_defender(context, client):

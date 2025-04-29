@@ -1,5 +1,5 @@
 from config import TOGETHER_MODELS
-from prompts import critic_prompt
+from v1.prompts import critic_prompt
 from together import Together
 
 def run_prosecutor(context, client):

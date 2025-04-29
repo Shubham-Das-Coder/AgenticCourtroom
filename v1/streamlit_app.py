@@ -1,8 +1,13 @@
-import streamlit as st
+import sys
 import os
+import streamlit as st
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from dotenv import load_dotenv
 from together import Together
-
+from prompts import critic_prompt, defender_prompt, arbiter_prompt
+from config import TOGETHER_MODELS
 from utils.rag_context import build_context
 from agents.agent1 import run_defender
 from agents.agent2 import run_prosecutor
