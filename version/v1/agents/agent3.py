@@ -1,5 +1,5 @@
-from config import TOGETHER_MODELS
-from v1.prompts import arbiter_prompt
+from version.v1.config import TOGETHER_MODELS
+from version.v1.prompts import arbiter_prompt
 from together import Together
 
 def run_judge(defense, prosecution, context, client):
