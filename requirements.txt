@@ -1,0 +1,9 @@
+openai
+streamlit
+transformers
+torch
+PyPDF2
+requests
+together
+python-dotenv
+os
